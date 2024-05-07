@@ -3,7 +3,7 @@ import ContactForm from '../ContactForm';
 import ContactList from '../ContactList';
 import Filter from '../Filter';
 import { nanoid } from 'nanoid';
-import styles from './App.module.css';
+import styles from './App.styles.css';
 
 class App extends Component {
   constructor(props) {
@@ -87,3 +87,20 @@ class App extends Component {
 }
 
 export default App;
+
+/* export const App = () => {
+  return (
+    <div
+      style={{
+        height: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontSize: 40,
+        color: '#010101'
+      }}
+    >
+      React homework template
+    </div>
+  );
+}; */
